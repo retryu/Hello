@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="wrap_content"
+	android:background="@drawable/bg35" android:layout_height="270dip">
+
+
+
+	<LinearLayout android:layout_width="wrap_content"
+	android:layout_marginTop="10dip"
+	android:layout_marginLeft="10dip"
+		android:layout_height="wrap_content" android:orientation="vertical">
+		<LinearLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:orientation="horizontal">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="#000000"
+				android:text="   周" android:textSize="20sp" />
+			<EditText android:textColor="#000000" android:layout_width="50dip"
+				android:layout_height="wrap_content" android:id="@+id/c_weekNum" />
+			<TextView android:textColor="#000000" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="第"
+				android:textSize="20sp" />
+			<EditText android:textColor="#000000" android:layout_width="50dip"
+				android:layout_height="wrap_content" android:id="@+id/c_classNum" />
+			<TextView android:textColor="#000000" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="节"
+				android:textSize="20sp" />
+
+
+			<TextView android:textColor="#000000" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="共"
+				android:textSize="20sp" />
+			<EditText android:textColor="#000000" android:layout_width="50dip"
+				android:layout_height="wrap_content" android:id="@+id/c_total" />
+			<TextView android:textColor="#000000" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="节"
+				android:textSize="20sp" />
+
+
+
+		</LinearLayout>
+
+
+		<LinearLayout android:layout_width="wrap_content"
+		
+			android:layout_height="wrap_content" android:orientation="horizontal">
+			<TextView android:textColor="#000000" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="   课程"
+				android:textSize="20sp" />
+			<EditText android:textColor="#000000" android:layout_width="200dip"
+			    android:hint="输入课程名称"
+				android:layout_height="wrap_content" android:id="@+id/c_name" />
+		</LinearLayout>
+
+
+
+
+		<LinearLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:orientation="horizontal">
+			<TextView android:textColor="#000000" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="   教室"
+				android:textSize="20sp" />
+			<EditText android:textColor="#000000" android:layout_width="200dip"
+			    android:hint="输入教室"
+				android:layout_height="wrap_content" android:id="@+id/c_place" />
+		</LinearLayout>
+
+
+
+
+
+
+		<LinearLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:orientation="horizontal">
+			<TextView android:textColor="#000000" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="   老师"
+				android:textSize="20sp" />
+			<EditText android:textColor="#000000" android:layout_width="100dip"
+			    android:hint="输入老师姓名"
+				android:layout_height="wrap_content" android:id="@+id/c_teacher" />
+		</LinearLayout>
+	</LinearLayout>
+
+	<LinearLayout android:orientation="horizontal"
+	android:layout_marginTop="5dip"
+	android:layout_marginLeft="20dip"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<Button android:textColor="#000000" android:id="@+id/add_button"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="添加课程" android:textSize="17sp" />
+		<Button android:textColor="#000000" android:id="@+id/update_button"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="修稿课程" android:textSize="17sp" />
+		<Button android:textColor="#000000" android:id="@+id/delete_button"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textSize="17sp" android:text="删除课程" />
+
+	</LinearLayout>
+
+
+
+
+</LinearLayout>

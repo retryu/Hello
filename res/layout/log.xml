@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+ android:background="#ffffff"
+  android:layout_height="fill_parent">
+ 
+   <LinearLayout 
+   android:layout_width="250dip"
+   android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:background="@drawable/abc_bar_common"
+   >
+   
+   <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:textColor="#000000"
+    
+    android:text="用户名:"
+    />
+    <widget.myEditText
+     android:id="@+id/username"
+     android:text="09927220"
+    android:layout_width="200dip"
+    android:layout_height="50dip"
+    ></widget.myEditText>
+   
+   
+     
+   </LinearLayout>
+   
+    <LinearLayout 
+   android:layout_width="250dip"
+   android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:background="@drawable/abc_bar_common"
+   >
+   
+   <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:textColor="#000000"
+      
+    android:text="密码:"
+    />
+    <widget.myEditText
+    android:text="2212118"
+    android:layout_width="200dip"
+    android:layout_height="50dip"
+     android:id="@+id/password"
+    ></widget.myEditText>
+   
+   
+     
+   </LinearLayout>
+   
+   <LinearLayout 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:orientation="horizontal"
+   
+   > 
+  <Button 
+  android:layout_width="100dip"
+  android:layout_height="wrap_content"
+  android:text="登入"
+  android:id="@+id/log_in"
+  
+  />
+  <LinearLayout 
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:paddingLeft="50dip"
+  > 
+   <Button 
+   android:layout_width="100dip"
+   
+   android:layout_height="wrap_content"
+   android:text="注销"
+    
+   android:id="@+id/log_off"
+   />
+   </LinearLayout>
+   
+   
+   
+   </LinearLayout>
+    
+    
+</LinearLayout>
