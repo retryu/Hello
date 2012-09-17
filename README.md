@@ -1,2 +1,2 @@
-这是一个andorid的课表软件
+杩欐槸涓�涓猘ndorid鐨勮琛ㄥ皬杞欢
 													----retryu
