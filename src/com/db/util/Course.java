@@ -8,7 +8,7 @@ public class Course {
 	 */
 
 	String courseName; 
-	String  day;
+	String  day;  
 	String  place;
 	String teacher;
 	int week;
